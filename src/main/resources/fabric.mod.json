@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "zombie_totem_mod",
+	"version": "${version}",
+	"name": "Zombie Totem Mod",
+	"description": "Adds a zombie totem with special effects!",
+	"authors": [
+		"minmod67"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/zombie_totem_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.minmod67.zombietotem.ZombieTotemMod"
+		]
+	},
+	"mixins": [
+		"zombie_totem_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.1",
+		"java": ">=21"
+	}
+}
